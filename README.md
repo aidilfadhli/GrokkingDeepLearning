@@ -52,7 +52,7 @@ The primary objective of this assignment is to deepen theoretical intuition and 
 
 ### Chapter 4: Introduction to Gradient Descent — Learning to Reduce Error
 - **Theoretical Core**: Focuses on the **Compare** and **Learn** stages. Establishes why Mean Squared Error (MSE: $(\hat{y} - y)^2$) is preferred over absolute error (strictly positive, quadratically penalizes catastrophic errors, smooth parabolic derivative). Analyzes the failure of heuristic *Hot and Cold* perturbation ($3^N$ combinatorial explosion) and derives analytical *Gradient Descent*:
-  $$\text{delta} = \hat{y} - y, \quad \text{weight\_delta} = \text{delta} \cdot \text{input}$$
+  $$\text{delta} = \hat{y} - y, \quad \Delta w = \text{delta} \cdot \text{input}$$
   Examines how the learning rate hyperparameter ($\alpha$) balances convergence speed against catastrophic overshooting (divergence).
 - **Code Core**: Compares Hot & Cold oscillation against Gradient Descent, implements one-step updates, and demonstrates exponential divergence when $\alpha$ is set too aggressively.
 
