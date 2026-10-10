@@ -1,0 +1,8 @@
+# Core dependencies for Grokking Deep Learning
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Interactive Notebook Environment
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.0.0
